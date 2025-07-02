@@ -1,0 +1,17 @@
+CompileFlags:
+  Add:
+    - -xc++
+    - -std=c++17
+    - -Wall
+    - -Wextra
+    - -pedantic
+    - -O2
+    - -g
+  Remove: [-fconserve-stack]
+  Compiler: clang++
+Index:
+  StandardLibrary: Yes
+Diagnostics:
+  UnusedIncludes: Strict
+Hover:
+  ShowAKA: Yes
